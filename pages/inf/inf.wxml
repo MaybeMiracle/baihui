@@ -1,0 +1,11 @@
+<scroll-view scroll-y="true" scroll-into-view="{{toView}}" style="height:{{s_height}}px;" bindscroll="scroll" scroll-with-animation="true">
+    <view wx:for="{{detail}}" wx:for-item="item">
+      <view wx:for="{{item}}" wx:for-item="good">
+        <image class="img" src="{{good.picUrl}}" mode="widthFix"></image>
+        <view class="mid">
+            <view>{{good.goodsName}}</view>
+            <view>{{good.goodsPrice}}</view>
+        </view>
+     </view>
+    </view>
+</scroll-view>

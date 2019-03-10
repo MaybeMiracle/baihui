@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="containe">
+  <!-- <view class="about">
+  <text>百惠家具</text>
+  <text>地址：阜阳商厦三楼</text>
+
+  </view> -->
+  <view class="about aboutme">
+
+
+    <text class="title">联系人：许总</text>
+  
+    <text class="title">手机：19956789222</text>
+
+    <text class="title">微信：xwz0210</text>
+
+    <text class="title">电话：0558-5121969</text>
+
+    <text class="title">地址：阜阳商厦三楼</text>
+
+    <text class="title">邮箱：bhjj@163.com</text>
+  </view>
+</view>
+<image class="mid" src="../../images/add.jpg"></image>

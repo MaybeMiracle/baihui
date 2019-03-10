@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/pic/pic",
+    "pages/inf/inf",
+    "pages/per/per"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "百惠家居",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "black",
+    "borderStyle": "black",
+    "text-align": "center",
+    "justify-content": "center",
+    "align-items": "center",
+    "margin": "auto",
+    "list": [
+      {
+        "pagePath": "pages/pic/pic",
+        "text": "百惠家具",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "pagePath": "pages/per/per",
+        "text": "联系方式",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/1.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
